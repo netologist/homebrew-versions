@@ -3,8 +3,8 @@ require "language/go"
 class Mongodb32 < Formula
   desc "High-performance, schema-free, document-oriented database"
   homepage "https://www.mongodb.org/"
-  url "https://fastdl.mongodb.org/src/mongodb-src-r3.2.11.tar.gz"
-  sha256 "625eb28fd47b2af63b30343a064de7f42e5265f4c642874ec766ba3643fd80d7"
+  url "https://fastdl.mongodb.org/src/mongodb-src-r3.2.3.tar.gz"
+  sha256 "82030ada190095b5d95c0b59e9cf74efe9db602b49d2b8857b06f2683a5227fa"
 
   option "with-boost", "Compile using installed boost, not the version shipped with mongodb"
   option "with-sasl", "Compile with SASL support"
@@ -17,8 +17,8 @@ class Mongodb32 < Formula
 
   go_resource "github.com/mongodb/mongo-tools" do
     url "https://github.com/mongodb/mongo-tools.git",
-        :tag => "r3.2.11",
-        :revision => "45418a84270bd822db0d6d0c37a0264efb0e86d2",
+        :tag => "r3.2.3",
+        :revision => "6c05043c5d40471b27abe06f64c9cfddecac1110",
         :shallow => false
   end
 
