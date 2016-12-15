@@ -4,7 +4,7 @@ These formulae provide multiple versions of existing packages or newer versions 
 
 ## How do I install these formulae?
 
-Just `brew tap traxtechnologies/versions` and then `brew install <formula>`.
+Just `brew tap hasanozgan/versions` and then `brew install <formula>`.
 
 If the formula conflicts with one from `homebrew/core` or another tap, you can `brew install homebrew/versions/<formula>`.
 
